@@ -1,0 +1,177 @@
+/* 
+
+Flash \ Flood
+Site by Michael C
+http://mjchamplin.com
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+html { 	-webkit-font-smoothing: antialiased; }
+
+body {
+    background: #ccc;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #333
+}
+
+h1,h2,h3 { margin-bottom: .25em; }
+h1 { font-size: 3em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.7em; font-weight: normal; font-style: italic; color: #d2d2d2; }
+
+#wrapper { 
+    width: 100%;
+    /*max-width: 1460px;*/
+    margin: 0 auto;
+    background: #fff;
+    min-height: 100vh;
+}
+
+.inner { 
+    padding: 2em;
+}
+
+nav.top { 
+    width: 100%;
+    padding: 0 3em;
+    border-top:1px solid #222;
+    border-bottom: 1px solid #ccc;
+    background: #eaeaea;
+}
+
+nav.top a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+nav.top ol { 
+    list-style-type: none;
+}
+
+nav.top ol li { 
+    display: inline-block; 
+    font-weight: bold;
+    margin-left: .25em;
+    padding: .5em;
+    box-sizing: border-box;
+}
+
+nav.top ol li:hover {
+    border-top: 3px solid #26739B;
+
+}
+
+nav.top ol li.active { 
+    border-top: 3px solid #26739B;
+}
+
+.logo { 
+    text-align: center;
+    padding: 4em;
+    border-bottom: 5px solid #333;
+}
+
+.logo img {
+    max-width: 460px;
+}
+
+
+section.billboard {
+    background: url('../images/billboard.jpg');
+    background-size: cover;
+    background-position: center;    
+    width:100%;
+    min-height: 500px;
+}
+
+.big {
+    font-size: 200pt;
+    text-align: center;
+    padding-top: .3em;
+    font-weight: 900;
+    color: #fff;    
+}
+
+.overview {
+    background:#26739B;   
+    color: #fff;
+}
+
+.inner-text {
+    padding: 70px;
+}
+
+.overview p {
+    font-weight: 300;
+    font-size: 1.3em; 
+    margin-bottom: 1em;
+}
+
+
+footer { 
+    text-align: center;
+}
+
+nav.bottom { 
+    margin: 1em 0 2em;
+}
+
+nav.bottom a {
+    color: #333;
+}
+
+nav.bottom ol {
+    list-style-type: none;
+}
+
+nav.bottom ol li {
+    display: inline-block;
+    margin-right: .35em;
+}
+
+nav.bottom ol li:last-child {
+    margin-right: 0;
+}
+
+img.warning { height: 3.5em; width: 3.5em; margin: 4em auto 0; display: block; }
+
+#left-column, #right-column { padding: 2em 70px; }
+#left-column p, #right-column p { text-align: justify; padding: 0; }
+#left-column h1, #right-column h1 { text-align: center; }
+#left-column { width: 50%; float: left; border-right: 1px solid #fff; margin: 0;}
+#right-column { width: 50%; float: left; }
+
+
+/* Subpage-specific styles */
+
+.logo.sub {
+    padding: 2em;
+}
+
+.logo.sub img {
+    max-width: 200px;
+}
+
+section.billboard.sub.about {
+    background: url('../images/meet-us.jpg');
+    background-size: cover;
+    background-position: top left;
+    width:100%;
+    min-height: 600px;
+}
+
+.sub .big {
+    font-size: 100pt;
+    padding-top: 2em;
+    font-weight: 900;
+    color: #fff;
+}
+
+section.billboard.sub.services{
+    background: url('../images/supplies.jpg');
+    background-size: cover;
+    background-position: center;
+}
