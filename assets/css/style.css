@@ -4,6 +4,12 @@ Flash \ Flood
 Site by Michael C
 http://mjchamplin.com
 
+Colors:
+
+Blue - #26739B
+Turquoise – #2e4f60
+Mustard – #ab9c38
+Rust – #8a462f
 */
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
@@ -53,7 +59,7 @@ nav.top ol {
 
 nav.top ol li { 
     display: inline-block; 
-    font-weight: bold;
+    text-transform: uppercase;
     margin-left: .25em;
     padding: .5em;
     box-sizing: border-box;
@@ -138,21 +144,24 @@ nav.bottom ol li:last-child {
 
 img.warning { height: 3.5em; width: 3.5em; margin: 4em auto 0; display: block; }
 
-#left-column, #right-column { padding: 2em 70px; }
-#left-column p, #right-column p { text-align: justify; padding: 0; }
+#left-column, #right-column { padding: 70px; }
 #left-column h1, #right-column h1 { text-align: center; }
+
+
+@media only screen and (min-width:1024px) { 
+#left-column p, #right-column p { text-align: justify; padding: 0; }
 #left-column { width: 50%; float: left; border-right: 1px solid #fff; margin: 0;}
 #right-column { width: 50%; float: left; }
-
+}
 
 /* Subpage-specific styles */
 
 .logo.sub {
-    padding: 2em;
+    padding: 1em;
 }
 
 .logo.sub img {
-    max-width: 200px;
+    max-width: 100px;
 }
 
 section.billboard.sub.about {
@@ -174,4 +183,8 @@ section.billboard.sub.services{
     background: url('../images/supplies.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.rust {
+    background: #8a462f
 }
