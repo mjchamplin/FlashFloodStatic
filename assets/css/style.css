@@ -42,9 +42,10 @@ h3 { font-size: 1.7em; font-weight: normal; font-style: italic; color: #d2d2d2; 
 nav.top { 
     width: 100%;
     padding: 0 3em;
-    border-top:1px solid #222;
-    border-bottom: 1px solid #ccc;
-    background: #eaeaea;
+	text-align: center;
+	border-bottom: 6px solid #333;
+	font-size: 1.2em;
+	letter-spacing: .08em
 }
 
 nav.top a {
@@ -61,23 +62,23 @@ nav.top ol li {
     display: inline-block; 
     text-transform: uppercase;
     margin-left: .25em;
-    padding: .5em;
+	margin-bottom: -6px;
+    padding: 1em;
     box-sizing: border-box;
 }
 
 nav.top ol li:hover {
-    border-top: 3px solid #26739B;
+    border-bottom: 6px solid #26739B;
 
 }
 
 nav.top ol li.active { 
-    border-top: 3px solid #26739B;
+    border-bottom: 6px solid #26739B;
 }
 
 .logo { 
     text-align: center;
     padding: 4em;
-    border-bottom: 5px solid #333;
 }
 
 .logo img {
