@@ -148,6 +148,17 @@ img.warning { height: 3.5em; width: 3.5em; margin: 4em auto 0; display: block; }
 #left-column, #right-column { padding: 70px; }
 #left-column h1, #right-column h1 { text-align: center; }
 
+.rust {
+    background: #8a462f
+}
+
+.monochrome {
+    background: #fff;
+    color: #333;
+    
+}
+
+
 
 @media only screen and (min-width:1024px) { 
 #left-column p, #right-column p { text-align: justify; padding: 0; }
@@ -163,7 +174,7 @@ img.warning { height: 3.5em; width: 3.5em; margin: 4em auto 0; display: block; }
 }
 
 .logo.sub img {
-    max-width: 100px;
+    max-width: 75px;
 }
 
 section.billboard.sub.about {
@@ -187,15 +198,53 @@ section.billboard.sub.services{
     background-position: center;
 }
 
-.rust {
-    background: #8a462f
+.single nav.top { 
+   
+    border-bottom: 3px solid #333;
+    font-size: 1em;
+    letter-spacing: .08em
 }
 
-.monochrome {
-	background: #fff;
-	color: #333;
-	
+.single nav.top ol li:hover {
+    border-bottom: 3px solid #26739B;
+
 }
+
+.single nav.top ol li.active { 
+    border-bottom: 3px solid #26739B;
+}
+.single nav.top ol li { 
+
+    margin-bottom: -3px;
+
+}
+
+/*
+nav.top a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+nav.top ol { 
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
 
 .mj {
 	color: #333;
