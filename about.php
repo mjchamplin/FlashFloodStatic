@@ -9,6 +9,9 @@
 	<!-- Don't forget to set your site up: http://google.com/webmasters -->
 	<meta name="google-site-verification" content="" />
 	<meta name="Copyright" content="Flash Flood Print Studios" />
+
+	<link rel="stylesheet" href="assets/libs/responsive-nav.css">
+	<script src="assets/libs/responsive-nav.min.js"></script>
 	
 	<!--  Mobile Viewport
 	http://j.mp/mobileviewport & http://davidbcalhoun.com/2010/viewport-metatag
@@ -58,11 +61,11 @@
 	<header class="">
        
         <div class="logo sub"><a href="#"><img src="assets/images/warning-logo-dark.png" /></a></div>
-		<nav class="top single">		
+		<nav class="top single nav-collapse">		
 			<ol>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li class="active"><a href="">About</a></li>
-				<li><a href="services.html">Services</a></li>
+				<li><a href="services.php">Services</a></li>
                 <li><a href="">Work</a></li>
 				<li><a href="">Contact</a></li>
 
@@ -106,11 +109,11 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
 		<footer class="inner">
 			<nav class="bottom">
 				<ol>
-					<li class="active"><a href="index.html">Home</a>
+					<li class="active"><a href="index.php">Home</a>
 					</li>
-					<li><a href="about.html">About</a>
+					<li><a href="about.php">About</a>
 					</li>
-					<li><a href="services.html">Services</a>
+					<li><a href="services.php">Services</a>
 					</li>
 					<li><a href="">Work</a>
 					</li>
@@ -143,6 +146,5 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
   ga('send', 'pageview');
 </script>
 -->
-  
 </body>
 </html>

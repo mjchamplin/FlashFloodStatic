@@ -8,6 +8,9 @@
 	<meta name="description" content="Graphic design and commercial printing services in Tulsa, Oklahoma include both flatstock and textiles. Screen printing workshops offered monthly for a variety of age groups. Studio services (film output, coat & exposure of screens, studio rental and more) available for those who know how to print but need a little help."
 	/>
 
+	<link rel="stylesheet" href="assets/libs/responsive-nav.css">
+	<script src="assets/libs/responsive-nav.min.js"></script>
+
 	<!-- Don't forget to set your site up: http://google.com/webmasters -->
 	<meta name="google-site-verification" content="" />
 	<meta name="Copyright" content="Flash Flood Print Studios" />
@@ -42,6 +45,8 @@
 	<meta property="og:url" content="" />
 	<meta property="og:image" content="" />
 
+
+
 </head>
 
 <body>
@@ -55,13 +60,13 @@
 					<img src="assets/images/logo.png" />
 				</a>
 			</div>
-			<nav class="top">
+			<nav class="top nav-collapse">
 				<ol>
 					<li class="active"><a href="">Home</a>
 					</li>
-					<li><a href="about.html">About</a>
+					<li><a href="about.php">About</a>
 					</li>
-					<li><a href="services.html">Services</a>
+					<li><a href="services.php">Services</a>
 					</li>
 					<li><a href="">Work</a>
 					</li>
@@ -96,11 +101,11 @@
 		<footer class="inner">
 			<nav class="bottom">
 				<ol>
-					<li class="active"><a href="index.html">Home</a>
+					<li class="active"><a href="index.php">Home</a>
 					</li>
-					<li><a href="about.html">About</a>
+					<li><a href="about.php">About</a>
 					</li>
-					<li><a href="services.html">Services</a>
+					<li><a href="services.php">Services</a>
 					</li>
 					<li><a href="">Work</a>
 					</li>
