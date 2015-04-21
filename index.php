@@ -9,6 +9,7 @@
 	/>
 
 	<link rel="stylesheet" href="assets/libs/responsive-nav.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<script src="assets/libs/responsive-nav.min.js"></script>
 
 	<!-- Don't forget to set your site up: http://google.com/webmasters -->

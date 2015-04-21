@@ -1,1 +1,1 @@
-  var nav = responsiveNav(".nav-collapse",{ label:"Menu"});
+  var nav = responsiveNav(".nav-collapse",{ label:"<i class='fa fa-bars'></i>"});
