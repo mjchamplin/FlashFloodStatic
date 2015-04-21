@@ -173,10 +173,12 @@ img.warning { height: 3.5em; width: 3.5em; margin: 4em auto 0; display: block; }
 .logo { 
     padding: 1em 4em;
 }
-nav.nav-collapse { 
+
+	nav.nav-collapse { 
     width: 100%;
     padding: 0 3em;
     border-bottom: 3px solid #333;
+	background-color: inherit
 }
 
 
@@ -193,6 +195,7 @@ nav.nav-collapse ol li {
     padding: 1em;
     box-sizing: border-box;
     width: inherit;
+	border-bottom: none;
 }
 
 nav.nav-collapse ol li:hover {
@@ -202,11 +205,12 @@ nav.nav-collapse ol li:hover {
 
 nav.nav-collapse ol li.active { 
     border-bottom: 3px solid #26739B;
+	background-color: inherit;
 }
 
-.nav-toggle { 
+a.nav-toggle { 
 	display: none;
-
+}
 }
 
 /* Subpage-specific styles */
