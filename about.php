@@ -1,35 +1,12 @@
 <!doctype html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<?php $root = $_SERVER['DOCUMENT_ROOT']; 
+	include($root."/assets/php/header.php"); 
+	?>
+	
 	<title>Flash Flood Print Studios - Commercial screen printing + community studio in Tulsa, Oklahoma</title>
 	<meta name="author" content="Flash Flood Print Studios" />
 	<meta name="description" content="Graphic design and commercial printing services in Tulsa, Oklahoma include both flatstock and textiles. Screen printing workshops offered monthly for a variety of age groups. Studio services (film output, coat & exposure of screens, studio rental and more) available for those who know how to print but need a little help." />
-	
-	<!-- Don't forget to set your site up: http://google.com/webmasters -->
-	<meta name="google-site-verification" content="" />
-	<meta name="Copyright" content="Flash Flood Print Studios" />
-
-	<link rel="stylesheet" href="assets/libs/responsive-nav.css">
-	<script src="assets/libs/responsive-nav.min.js"></script>
-	
-	<!--  Mobile Viewport
-	http://j.mp/mobileviewport & http://davidbcalhoun.com/2010/viewport-metatag
-	device-width : Occupy full width of the screen in its current orientation
-	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width (wrong for most sites)
-	-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
-	<link rel="shortcut icon" href="favicon.ico" />
-	
-	<!-- concatenate and minify for production -->
-	<link rel="stylesheet" href="assets/css/reset.css" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	
-	<!-- Lea Verou's Prefix Free, lets you use un-prefixed properties in your CSS files 
-	<script src="assets/js/libs/prefixfree.min.js"></script>-->
 	
 	<!-- Application-specific meta tags -->
 	<!-- Windows 8: see http://msdn.microsoft.com/en-us/library/ie/dn255024%28v=vs.85%29.aspx for details -->
@@ -125,26 +102,6 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
 			</p>
 		</footer>
 </div>
-
-<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
-
-<!-- this is where we put our custom functions -->
-<!-- don't forget to concatenate and minify if needed -->
-<script src="assets/js/functions.js"></script>
-
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-XXXXXX-XX', 'auto');
-  ga('send', 'pageview');
-</script>
--->
+<?php include($root."/assets/php/footer.php"); ?>
 </body>
 </html>
