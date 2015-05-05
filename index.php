@@ -51,7 +51,7 @@
 					</li>
 					<li><a href="about.php">About</a>
 					</li>
-					<li><a href="services.php">Services</a>
+					<!--li><a href="services.php">Services</a-->
 					</li>
 					<li><a href="">Work</a>
 					</li>

@@ -41,7 +41,7 @@
 			<ol>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About</a></li>
-				<li class="active"><a href="services">Services</a></li>
+				<li class="active"><a href="services.php">Services</a></li>
                 <li><a href="">Work</a></li>
 				<li><a href="">Contact</a></li>
 

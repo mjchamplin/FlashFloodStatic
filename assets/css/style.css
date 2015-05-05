@@ -90,13 +90,14 @@ section.billboard {
     background-size: cover;
     background-position: center;    
     width:100%;
-    min-height: 500px;
+    min-height: 400px;
+	height: 70vh;
 }
 
 .big {
-    font-size: 200pt;
+    font-size: 100pt;
     text-align: center;
-    padding-top: .3em;
+    padding-top: .6em;
     font-weight: 900;
     color: #fff;    
 }
