@@ -47,13 +47,13 @@
 			</div>
 			<nav class="top nav-collapse">
 				<ol>
-					<li class="active"><a href="">Home</a>
+					<li><a href="">Home</a>
 					</li>
 					<li><a href="about.php">About</a>
 					</li>
 					<!--li><a href="services.php">Services</a-->
 					</li>
-					<li><a href="work.php">Work</a>
+					<li class="active"><a href="work.php">Work</a>
 					</li>
 					<li><a href="">Contact</a>
 					</li>
@@ -61,26 +61,21 @@
 			</nav>
 		</header>
 
-		<section class="billboard">
+		<!--section class="billboard">
 			<p class="big">print.</p>
-		</section>
+		</section-->
 
-		<section class="overview clearfix">
-			<div class="inner">
-			<div id="left-column">
-				<h1>Commercial</h1>
-				<p>We create beautiful limited-edition event posters, t-shirts and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
-				<p>Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality. We handle jobs of all shapes and sizes on a wide variety of materials. Contact us for a custom quote.</p>
+		<section class="rust overview clearfix">
+			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/abstract');">
+				<div class="portfolio-title">
+					<p>
+						Bullshit
+					</p>
+				</div>
 			</div>
-			<div id="right-column">
-				<h1>Community</h1>
-				<p>We put the space, equipment, and expertise necessary to learn or continue printmaking in the hands of local artists and designers by offering studio rental, classes, workshops and community outreach programs.</p>
-				<p>As leaders in a growing local printmaking community, we strive for a fun and creative environment &mdash; and <strong>we want you to join us.</strong>
-				</p>
-			</div>
-			<div class="clearfix"></div>
-			<img src="assets/images/warning-logo.png" class="warning" />
-			</div>
+			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/city');"></div>
+			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/transport');"></div>
+			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/technics');"></div>
 		</section>
 
 		<footer class="inner">
