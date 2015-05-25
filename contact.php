@@ -4,7 +4,8 @@
 	<?php $root = $_SERVER['DOCUMENT_ROOT']; 
 	include($root."/assets/php/header.php"); 
 	?>
-	
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />	
 	
 	<title>Flash Flood Print Studios - Commercial screen printing + community studio in Tulsa, Oklahoma</title>
 	<meta name="author" content="Flash Flood Print Studios" />
@@ -43,55 +44,24 @@
 
 			<nav class="top nav-collapse">
 				<ol>
-					<li><a href="">Home</a>
+					<li class="active"><a href="">Home</a>
 					</li>
 					<li><a href="about.php">About</a>
 					</li>
 					<!--li><a href="services.php">Services</a-->
 					</li>
-					<li class="active"><a href="work.php">Work</a>
+					<li><a href="work.php">Work</a>
 					</li>
 					<li><a href="">Contact</a>
 					</li>
 				</ol>
 			</nav>
 		</header>
-
-		<!--section class="billboard">
-			<p class="big">print.</p>
-		</section-->
-
-		<section class="rust overview clearfix">
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/abstract');">
-				<div class="portfolio-title">
-					<p>
-						Contract Printing
-					</p>
-				</div>
-			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/city');">
-				<div class="portfolio-title">
-					<p>
-						Local Bands
-					</p>
-				</div>			
-			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/transport');">
-				<div class="portfolio-title">
-					<p>
-						Mainline
-					</p>
-				</div>			
-			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/technics');">
-				<div class="portfolio-title">
-					<p>
-						SMG: Art Directors
-					</p>
-				</div>			
+		<section id="map">
+			<div>
+				map
 			</div>
 		</section>
-
 		<footer class="inner">
 			<nav class="bottom">
 				<ol>
@@ -113,6 +83,14 @@
 		</footer>
 	</div>
 	<?php include($root."/assets/php/footer.php"); ?>
+<script>
+// Provide your access token
+L.mapbox.accessToken = 'pk.eyJ1IjoibWpjaGFtcGxpbiIsImEiOiJSejB1VjNvIn0.AHpCZrtlNQUQXvMIk_ipnQ';
+// Create a map in the div #map
+L.mapbox.map('map', 'villeda.c4c63d13')
+    .setView([36.1314, -95.9372], 12);
+
+</script>
 </body>
 
 </html>
