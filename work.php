@@ -65,28 +65,20 @@
 			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/abstract');">
 				<div class="portfolio-title">
 					<p>
-						Contract Printing
+						Full Service
+					</p>
+					<p class="portfolio-description">
+						Designed and printed by Flash Flood. 
 					</p>
 				</div>
 			</div>
 			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/city');">
 				<div class="portfolio-title">
 					<p>
-						Local Bands
+						Contract Printing
 					</p>
-				</div>			
-			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/transport');">
-				<div class="portfolio-title">
-					<p>
-						Mainline
-					</p>
-				</div>			
-			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/technics');">
-				<div class="portfolio-title">
-					<p>
-						SMG: Art Directors
+					<p class="portfolio-description">
+						Let us print your designs (we do the messy part).
 					</p>
 				</div>			
 			</div>

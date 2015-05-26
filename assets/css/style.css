@@ -144,8 +144,13 @@ section.billboard {
 	width: 100%;
 }
 
-.portfolio-title p:hover {
-	background: #222;
+.portfolio-title:hover {
+	background: #fff;
+	color: #222;
+}
+
+.portfolio-description {
+	display: none;	
 }
 
 #map { 
@@ -235,6 +240,11 @@ img.warning {
 	.two-box {
 		height: 50vh;
 
+	}
+	
+	.portfolio-title:hover .portfolio-description {
+	display: inline;
+	font-size: 2rem
 	}
 }
 
