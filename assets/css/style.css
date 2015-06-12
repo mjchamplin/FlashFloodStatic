@@ -104,7 +104,7 @@ section.billboard {
 	background-position: center;
 	width: 100%;
 	min-height: 400px;
-	height: 70vh;
+	/*height: 70vh;*/
 }
 
 .big {
@@ -133,7 +133,10 @@ section.billboard {
 	position: relative;
 }
 
-
+.portfolio-heading { 
+	text-align: center;
+	padding: .5em 0;
+}
 
 .portfolio-title {
 	text-align: center;
@@ -151,6 +154,24 @@ section.billboard {
 
 .portfolio-description {
 	display: none;	
+}
+
+.portfolio-holder {
+	 margin: 0 auto;
+}
+
+.portfolio-thumb {
+	max-width: 300px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.featherlight-image {
+	max-height: 100%;
+}
+
+.featherlight-content { 
+	box-sizing: content-box;
 }
 
 #map { 
