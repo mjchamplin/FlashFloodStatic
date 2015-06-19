@@ -21,7 +21,8 @@ html {
 body {
 	background: #ccc;
 	font-family: "Lato", Helvetica, Arial, sans-serif;
-	color: #333
+	color: #333;
+	font-size: 18px;
 }
 
 h1,h2,h3 {
@@ -128,6 +129,7 @@ section.billboard {
 
 .two-box {
 	background-size: cover;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 30vh;
 	position: relative;
@@ -140,11 +142,20 @@ section.billboard {
 
 .portfolio-title {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 4rem;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-40%);
 	width: 100%;
+	padding: .5em 0 .7em;
+	color: #fff;
+	font-weight: 300;
+	background: #000;
+	background: rgba(0,0,0,.6)
+}
+
+.portfolio-title p {
+	font-weight: 300;
 }
 
 .portfolio-title:hover {
@@ -153,7 +164,9 @@ section.billboard {
 }
 
 .portfolio-description {
-	display: none;	
+	/*display: none;*/
+	font-size: 2rem
+
 }
 
 .portfolio-holder {
@@ -203,7 +216,7 @@ nav.bottom ol li:last-child {
 	margin-right: 0;
 }
 
-img.warning {
+.warning {
 	height: 3.5em;
 	width: 3.5em;
 	margin: 4em auto 0;
@@ -264,8 +277,7 @@ img.warning {
 	}
 	
 	.portfolio-title:hover .portfolio-description {
-	display: inline;
-	font-size: 2rem
+	display: block;
 	}
 }
 

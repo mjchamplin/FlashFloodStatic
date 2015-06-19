@@ -61,8 +61,8 @@
 			<p class="big">print.</p>
 		</section-->
 
-		<section class="rust overview clearfix">
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/abstract');">
+		<section class="clearfix">
+			<div class="two-box" style="background: url('/assets/images/work-full-service.jpg');">
 				<div class="portfolio-title">
 					<p>
 						Full Service
@@ -72,7 +72,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="two-box" style="background: url('http://lorempixel.com/1000/600/city');">
+			<div class="two-box" style="background: url('/assets/images/work-contract.jpg');">
 				<div class="portfolio-title">
 					<p>
 						Contract Printing

@@ -31,6 +31,7 @@
 	<meta property="og:description" content="" />
 	<meta property="og:url" content="" />
 	<meta property="og:image" content="" />
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
 
 </head>
 
@@ -57,17 +58,18 @@
 			</nav>
 		</header>
 
-		<!--section class="billboard">
-			<p class="big">print.</p>
-		</section-->
 <section class="clearfix">
+	<h1 class="portfolio-heading">
+		Full-Service
+	</h1>
 	<div class="clearfix portfolio-holder">
 		<?php 
-$dirname = "portfolio/";
-$images = glob($dirname."*.jpg");
-foreach($images as $image) {
-echo '<img src="'.$image.'" class="portfolio-thumb" />';
-}
+$thumb_dirname = "portfolio/thumbnails/";
+chdir($thumb_dirname);
+$thumb_images = glob("*.jpg");
+foreach($thumb_images as $thumb_image) {
+echo '<a href="#" data-featherlight="portfolio/full-size/'.$thumb_image.'"><img src="portfolio/thumbnails/'.$thumb_image.'" class="portfolio-thumb" /></a>';
+	}
 ?>
 	</div>
 </section>
@@ -92,6 +94,8 @@ echo '<img src="'.$image.'" class="portfolio-thumb" />';
 		</footer>
 	</div>
 	<?php include($root."/assets/php/footer.php"); ?>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 
 </html>
