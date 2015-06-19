@@ -44,7 +44,7 @@
 
 			<nav class="top nav-collapse">
 				<ol>
-					<li class="active"><a href="">Home</a>
+					<li><a href="/">Home</a>
 					</li>
 					<li><a href="about.php">About</a>
 					</li>
@@ -52,7 +52,7 @@
 					</li>
 					<li><a href="work.php">Work</a>
 					</li>
-					<li><a href="">Contact</a>
+					<li class="active"><a href="">Contact</a>
 					</li>
 				</ol>
 			</nav>
@@ -60,6 +60,19 @@
 		<section id="map">
 			<div>
 				map
+			</div>
+		</section>
+		<section>
+			<div id="contact-form">
+				<form action="//formspree.io/mjchamplin@gmail.com" method="POST">
+					<label>Name</label>
+					<input type="text" name="name" placeholder="Your name here">
+					<label>Email</label>
+					<input type="email" name="_replyto" placeholder="Your email address if you please">
+					<label>Message</label>
+					<textarea type="textarea" name="message" placeholder="What's on your mind?" rows="8"></textarea>
+					<input type="submit" value="Send">
+				</form>
 			</div>
 		</section>
 		<footer class="inner">
@@ -87,8 +100,14 @@
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWpjaGFtcGxpbiIsImEiOiJSejB1VjNvIn0.AHpCZrtlNQUQXvMIk_ipnQ';
 // Create a map in the div #map
-L.mapbox.map('map', 'villeda.c4c63d13')
-    .setView([36.1314, -95.9372], 12);
+var map = L.mapbox.map('map', 'mjchamplin.map-7l8vccna', {
+  zoomControl: false // don't display map controls
+}).setView([36.157, -95.965], 14);
+// disable 	map dragging and zooming		
+map.dragging.disable();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
 
 </script>
 </body>

@@ -231,9 +231,71 @@ nav.bottom ol li:last-child {
 	background: #8a462f
 }
 
+.mustard {
+	background: #ab9c38;
+}
+.turquoise { 
+	background: #2e4f60;
+}
+
 .monochrome {
 	background: #fff;
 	color: #333;
+}
+
+#contact-form { 
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 4em 2em;
+}
+
+#contact-form label {
+	display: inline-block;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: .8em;
+}
+
+#contact-form input:not([type=submit]), #contact-form textarea {
+	font-size: 1.2em;
+	width: 100%;
+	height: 2em;
+	margin-bottom: 2em;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #26739B;
+	color: #333;
+	font-family: Lato, sans-serif;
+}
+
+#contact-form textarea {
+	height: 8em;
+}t
+
+#contact-form input:focus {
+	border-bottom: 2px solid #ab9c38;
+	outline: none;
+}
+
+#contact-form input[type=submit]{
+	width: 100%;
+	height: 4em;
+	background-color: inherit;
+	border: 2px solid #26739B;
+	border-radius: 0;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	color: #26739B;
+}
+
+#contact-form input[type=submit]:hover {
+	background-color: #26739B;
+	color: #fff;	
+}
+#contact-form input[type=submit] {
+    -webkit-transition: background-color .2s, color .2s;
+
 }
 
 @media only screen and (min-width:1024px) {

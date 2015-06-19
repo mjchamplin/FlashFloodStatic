@@ -55,7 +55,7 @@
 					</li>
 					<li><a href="work.php">Work</a>
 					</li>
-					<li><a href="">Contact</a>
+					<li><a href="contct.php">Contact</a>
 					</li>
 				</ol>
 			</nav>
