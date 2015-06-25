@@ -47,15 +47,15 @@
 			</div>
 			<nav class="top nav-collapse">
 				<ol>
-					<li class="active"><a href="">Home</a>
+					<li class="active"><a href="/">Home</a>
 					</li>
-					<li><a href="about.php">About</a>
+					<li><a href="/about">About</a>
 					</li>
 					<!--li><a href="services.php">Services</a-->
 					</li>
-					<li><a href="work.php">Work</a>
+					<li><a href="/work">Work</a>
 					</li>
-					<li><a href="contct.php">Contact</a>
+					<li><a href="/contact">Contact</a>
 					</li>
 				</ol>
 			</nav>
@@ -86,17 +86,11 @@
 		<footer class="inner">
 			<nav class="bottom">
 				<ol>
-					<li class="active"><a href="index.php">Home</a>
-					</li>
-					<li><a href="about.php">About</a>
-					</li>
-					<li><a href="services.php">Services</a>
-					</li>
-					<li><a href="">Work</a>
-					</li>
-					<li><a href="">Contact</a>
-					</li>
-
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/services">Services</a></li>
+					<li><a href="/work">Work</a></li>
+					<li><a href="/contact">Contact</a></li>
 				</ol>
 			</nav>
 			<p><small>&copy; Copyright Flash Flood Print Studios. All Rights Reserved. Site by <a class="mj" href="http://mjchamplin.com">Michael</a>.</small>

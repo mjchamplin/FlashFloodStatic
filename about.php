@@ -40,11 +40,10 @@
         <div class="logo sub"><a href="#"><img src="assets/images/warning-logo-dark.png" /></a></div>
 		<nav class="top single nav-collapse">		
 			<ol>
-				<li><a href="index.php">Home</a></li>
+				<li><a href="/">Home</a></li>
 				<li class="active"><a href="">About</a></li>
-				<li><a href="services.php">Services</a></li>
-                <li><a href="">Work</a></li>
-				<li><a href="">Contact</a></li>
+                <li><a href="/work">Work</a></li>
+				<li><a href="/contact">Contact</a></li>
 
 			</ol>	
 		</nav>        
@@ -86,16 +85,11 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
 		<footer class="inner">
 			<nav class="bottom">
 				<ol>
-					<li class="active"><a href="index.php">Home</a>
-					</li>
-					<li><a href="about.php">About</a>
-					</li>
-					<li><a href="services.php">Services</a>
-					</li>
-					<li><a href="">Work</a>
-					</li>
-					<li><a href="">Contact</a>
-					</li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/services">Services</a></li>
+					<li><a href="/work">Work</a></li>
+					<li><a href="/contact">Contact</a></li>
 				</ol>
 			</nav>
 			<p><small>&copy; Copyright Flash Flood Print Studios. All Rights Reserved. Site by <a class="mj" href="http://mjchamplin.com">Michael</a>.</small>
