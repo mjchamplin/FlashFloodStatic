@@ -5,7 +5,8 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="/assets/libs/responsive-nav.min.js"></script>
-	<script src="/assets/libs/jquery.fittext.js"></script>
+    <script src="/assets/libs/textFit.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
 
 	<!-- Don't forget to set your site up: http://google.com/webmasters -->

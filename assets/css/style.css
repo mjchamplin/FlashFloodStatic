@@ -111,7 +111,6 @@ section.billboard {
 .big {
 	font-size: 100pt;
 	text-align: center;
-	padding-top: .6em;
 	font-weight: 900;
 	color: #fff;
 }
@@ -323,6 +322,11 @@ nav.bottom ol li:last-child {
 
 }
 
+.contact-info {
+	margin: 0 0 1em;
+	text-align:center
+}
+
 @media only screen and (min-width:1024px) {
  
 	#left-column p, #right-column p {
@@ -426,19 +430,21 @@ nav.bottom ol li:last-child {
 }
 
 section.billboard.sub.about {
-	background: url('../images/meet-us.jpg');
+	background: url('../images/billboards/flashfloods.jpg');
 	background-size: cover;
-	background-position: top left;
+	background-position: top center;
 	width: 100%;
 	min-height: 600px;
 }
 
+/*
 .sub .big {
 	font-size: 100pt;
 	padding-top: 2em;
 	font-weight: 900;
 	color: #fff;
 }
+*/
 
 section.billboard.sub.services {
 	background: url('../images/supplies.jpg');
@@ -449,6 +455,7 @@ section.billboard.sub.services {
 
 
 /*
+
 nav.nav-collapse a {
     text-decoration: none;
     color: #333;
@@ -458,12 +465,6 @@ nav.nav-collapse a {
 nav.nav-collapse ol { 
     list-style-type: none;
 }
-
-
-
-
-
-
 
 */
 

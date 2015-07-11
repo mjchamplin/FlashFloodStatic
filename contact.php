@@ -73,20 +73,11 @@
 					<input type="submit" value="Send">
 				</form>
 			</div>
+			<div class="contact-info">
+				2407 E. Admiral Blvd Tulsa, OK 74110<br /><a href="tel:9187943527">(918) 794-3527</a>
+			</div>
 		</section>
-		<footer class="inner">
-			<nav class="bottom">
-				<ol>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/work">Work</a></li>
-					<li><a href="/contact">Contact</a></li>
-				</ol>
-			</nav>
-			<p><small>&copy; Copyright Flash Flood Print Studios. All Rights Reserved. Site by <a class="mj" href="http://mjchamplin.com">Michael</a>.</small>
-			</p>
-		</footer>
+	<?php include($root. "/assets/php/content-footer.php"); ?>
 	</div>
 	<?php include($root."/assets/php/footer.php"); ?>
 <script>
