@@ -18,3 +18,17 @@
 	<!-- concatenate and minify for production -->
 	<link rel="stylesheet" href="/assets/css/reset.css" />
 	<link rel="stylesheet" href="/assets/css/style.css" />
+
+	<!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@flashfloodprint">
+	<meta name="twitter:title" content="Flash Flood Print Studios">
+	<meta name="twitter:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma.">
+	<meta name="twitter:url" content="http://flashfloodprints.com">
+	<meta name="twitter:image" content ="http://preview.uo6rqaopp5app66rzj4v3xudfqb2zkt98dfxm77b48lu9pb9.box.codeanywhere.com/assets/images/logo.png">
+	
+	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+	<meta property="og:title" content="Flash Flood Print Studios" />
+	<meta property="og:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma." />
+	<meta property="og:url" content="http://flashfloodprints.com" />
+	<meta property="og:image" content="https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11274388_826722487405946_453098976_n.jpg" />

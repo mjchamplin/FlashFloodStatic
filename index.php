@@ -11,28 +11,13 @@
 
 	<!-- Application-specific meta tags -->
 	
-	<!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@flashfloodprint">
-	<meta name="twitter:title" content="Flash Flood Print Studios">
-	<meta name="twitter:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma.">
-	<meta name="twitter:url" content="http://flashfloodprints.com">
-	<meta name="twitter:image" content ="http://preview.uo6rqaopp5app66rzj4v3xudfqb2zkt98dfxm77b48lu9pb9.box.codeanywhere.com/assets/images/logo.png">
-	
-	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
-	<meta property="og:title" content="" />
-	<meta property="og:description" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:image" content="" />
+
 
 </head>
 
 <body>
-
 	<div id="wrapper">
-
 		<header class="">
-
 			<div class="logo">
 				<a href="#">
 					<img src="assets/images/logo.png" />
