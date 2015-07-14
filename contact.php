@@ -63,7 +63,7 @@
 		</section>
 		<section>
 			<div id="contact-form">
-				<form action="//formspree.io/mjchamplin@gmail.com" method="POST">
+				<form action="//formspree.io/contact@flashfloodprint.com" method="POST">
 					<label>Name</label>
 					<input type="text" name="name" placeholder="Your name here">
 					<label>Email</label>
