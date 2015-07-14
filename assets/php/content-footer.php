@@ -13,6 +13,10 @@
 					</li>
 				</ol>
 			</nav>
+			<div class="social-bar">
+				<a href="https://www.facebook.com/flashfloodprint" class="fa fa-facebook social-icon"></a>
+				<a href="https://instagram.com/flashfloodprint/" class="fa fa-instagram social-icon"></a>
+			</div>
 			<p><small>&copy; Copyright Flash Flood Print Studios. All Rights Reserved. Site by <a class="mj" href="http://mjchamplin.com">Michael</a>.</small>
 			</p>
 		</footer>

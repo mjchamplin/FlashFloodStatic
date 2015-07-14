@@ -10,21 +10,15 @@
 	/>
 
 	<!-- Application-specific meta tags -->
-
-	<!-- Windows 8: see http://msdn.microsoft.com/en-us/library/ie/dn255024%28v=vs.85%29.aspx for details -->
-	<meta name="application-name" content="" />
-	<meta name="msapplication-TileColor" content="" />
-	<meta name="msapplication-TileImage" content="" />
-	<meta name="msapplication-square150x150logo" content="" />
-	<meta name="msapplication-square310x310logo" content="" />
-	<meta name="msapplication-square70x70logo" content="" />
-	<meta name="msapplication-wide310x150logo" content="" />
+	
 	<!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
-	<meta name="twitter:card" content="">
-	<meta name="twitter:site" content="">
-	<meta name="twitter:title" content="">
-	<meta name="twitter:description" content="">
-	<meta name="twitter:url" content="">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@flashfloodprint">
+	<meta name="twitter:title" content="Flash Flood Print Studios">
+	<meta name="twitter:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma.">
+	<meta name="twitter:url" content="http://flashfloodprints.com">
+	<meta name="twitter:image" content ="http://preview.uo6rqaopp5app66rzj4v3xudfqb2zkt98dfxm77b48lu9pb9.box.codeanywhere.com/assets/images/logo.png">
+	
 	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
 	<meta property="og:title" content="" />
 	<meta property="og:description" content="" />
@@ -59,7 +53,9 @@
 		</header>
 
 		<section class="billboard">
-			<p class="big">print.</p>
+			<div class="billboard-overlay">				
+				<p class="big">print.</p>
+			</div>
 		</section>
 
 		<section class="overview clearfix">

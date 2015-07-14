@@ -12,8 +12,6 @@ Mustard – #ab9c38
 Rust – #8a462f
 */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
 html {
 	-webkit-font-smoothing: antialiased;
 }
@@ -141,6 +139,9 @@ section.billboard {
 	background-color: #000;
 	background-color: rgba(0,0,0,.6);
 	-webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-o-transition: background-color .2s;
+	-transition: background-color .2s;
 
 }
 
@@ -240,6 +241,30 @@ nav.bottom ol li:last-child {
 	margin-right: 0;
 }
 
+.social-bar {
+	margin-bottom: 1em;
+}
+
+.social-icon {
+	font-size: 1.5em; 
+	margin-right: .6em;
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+	-moz-transition: color .2s;
+	-o-transition: color .2s;
+	-transition: color .2s;
+}
+
+.social-icon:hover {
+	color: #c558f2;
+}
+
+
+.social-icon:last-child {
+	margin-right: 0;
+}
+
 .warning {
 	height: 3.5em;
 	width: 3.5em;
@@ -319,7 +344,9 @@ nav.bottom ol li:last-child {
 }
 #contact-form input[type=submit] {
     -webkit-transition: background-color .2s, color .2s;
-
+	-moz-transition: background-color .2s, color .2s;
+	-o-transition: background-color .2s, color .2s;
+	-transition: background-color .2s, color .2s;
 }
 
 .contact-info {
