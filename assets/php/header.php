@@ -25,10 +25,10 @@
 	<meta name="twitter:title" content="Flash Flood Print Studios">
 	<meta name="twitter:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma.">
 	<meta name="twitter:url" content="http://flashfloodprint.com">
-	<meta name="twitter:image" content ="https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11274388_826722487405946_453098976_n.jpg">
+	<meta name="twitter:image" content ="/assets/images/flash-flood-og.jpg">
 	
 	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
 	<meta property="og:title" content="Flash Flood Print Studios" />
 	<meta property="og:description" content="We create beautiful limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma." />
 	<meta property="og:url" content="http://flashfloodprint.com" />
-	<meta property="og:image" content="https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11274388_826722487405946_453098976_n.jpg" />
+	<meta property="og:image" content="/assets/images/flash-flood-og.jpg" />
