@@ -74,7 +74,8 @@
 				</form>
 			</div>
 			<div class="contact-info">
-				2407 E. Admiral Blvd Tulsa, OK 74110<br /><a href="tel:9187943527">(918) 794-3527</a>
+				2407 E. Admiral Blvd Tulsa, OK 74110<br /><a href="tel:9187943527">(918) 794-3527</a><br />
+				<a href="mailto:contact@flashfloodprint.com">contact@flashfloodprint.com</a>
 			</div>
 		</section>
 	<?php include($root. "/assets/php/content-footer.php"); ?>
