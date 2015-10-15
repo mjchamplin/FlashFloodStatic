@@ -37,11 +37,7 @@
 			</nav>
 		</header>
 
-		<section class="billboard">
-			<div class="billboard-overlay">				
-				<p class="big">print.</p>
-			</div>
-		</section>
+		<section class="billboard"></section>
 
 		<section class="overview clearfix">
 			<div class="inner">
