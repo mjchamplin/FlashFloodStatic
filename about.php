@@ -49,9 +49,7 @@
 		</nav>        
 	</header>
 	
-	<section class="billboard sub about">	
-        <div class="big">about us.</div>
-	</section>
+	<section class="billboard sub about"></section>
 	
     <section class="overview clearfix rust">
         <div class="inner inner-text">
