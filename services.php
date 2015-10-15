@@ -63,10 +63,6 @@ Whether it is on textiles or paper, for your business or for your band, we work 
 <p>            
 We're visual people at Flash Flood. Turning ideas into images comes naturally for us. If you need help with your concept, we'd love to work with you, one-on-one.
 </p>
-<h2>Workshops</h2>
-<p>            
-We offer a one-day intensive workshop for those wanting to learn the process of screen printing on paper. You'll leave with a stack of prints, you made yourself! Come hang out with us at our studio, we'll show you a good time. 
-</p>
 <h2>Studio Services</h2>
 <p>
 For those of you who already know how to screen print but haven't had the resources to do so… we understand your pain. From burning screens to printing out film work to providing a temporary space to work, we can take care of those ugly steps to get you on the path to printing.
