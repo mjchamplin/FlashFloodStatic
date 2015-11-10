@@ -37,10 +37,15 @@
 			</nav>
 		</header>
 
-		<section class="billboard"></section>
+		<section class="billboard">
+			<div class="inner">
+			<p>We create beautiful limited-edition event posters, t-shirts and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
+			<p>Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality. We handle jobs of all shapes and sizes on a wide variety of materials. Contact us for a custom quote.</p>
+			</div>
+		</section>
 
 		<section class="overview clearfix">
-			<div class="inner">
+			<!--div class="inner">
 				<div id="left-column">
 					<h1>Commercial</h1>
 					<p>We create beautiful limited-edition event posters, t-shirts and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
@@ -54,7 +59,7 @@
 				</div>
 				<div class="clearfix"></div>
 				<img src="assets/images/warning-logo.png" class="warning" />
-			</div>
+			</div-->
 		</section>
 	<?php include($root. "/assets/php/content-footer.php"); ?>
 	</div>
