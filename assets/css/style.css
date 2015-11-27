@@ -56,6 +56,20 @@ h3 {
 	padding: 2em;
 }
 
+.intro {
+}
+
+.intro p { 
+	margin-bottom: 1.684em;
+	font-weight: 300;
+	font-size: 1.684em;
+}
+
+.intro p:last-child {
+	margin-bottom: 0
+}
+
+
 .logo {
 	text-align: center;
 	padding: 2em 4em;
@@ -98,12 +112,13 @@ a.nav-toggle {
 }
 
 section.billboard {
+	
 	background: url('../images/billboard.jpg');
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	color: #fff;
-	padding: 6em 0;
+	min-height: 25vw;
 }
 
 section.billboard p {
@@ -132,14 +147,21 @@ section.billboard p:last-child {
 	font-size: 1.3em;
 	margin-bottom: 1em;
 }
-
+#ig-container {
+	
+}
 .ig-pic {
-	width: 25%; 
+	width: 20%; 
 	float: left;
-	min-height: 25vw;
+	min-height: 18vw;
 	padding: 0;
-	margin: 0;
+	margin-left: 6.6666%;
 	background-size:cover;
+	background-position: center;
+}
+
+.ig-pic:first-child {
+	margin-left: 0;
 }
 
 .two-box {
@@ -239,11 +261,11 @@ footer {
 }
 
 nav.bottom {
-	margin: 1em 0 2em;
+	margin: 0 0 2em;
 }
 
 nav.bottom a {
-	color: #333;
+	color: #fff;
 }
 
 nav.bottom ol {
@@ -266,7 +288,7 @@ nav.bottom ol li:last-child {
 .social-icon {
 	font-size: 1.5em; 
 	margin-right: .6em;
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 	-webkit-transition: color .2s;
 	-moz-transition: color .2s;
@@ -295,7 +317,8 @@ nav.bottom ol li:last-child {
 }
 
 .rust {
-	background: #8a462f
+	background: #8a462f;
+	color: #fff;
 }
 
 .mustard {
@@ -303,6 +326,7 @@ nav.bottom ol li:last-child {
 }
 .turquoise { 
 	background: #2e4f60;
+	color: #fff
 }
 
 .monochrome {
@@ -402,7 +426,7 @@ nav.bottom ol li:last-child {
 	.inner-text {
 		padding: 70px;
 	}
-
+	
 	#left-column, #right-column {
 		padding: 70px;
 	}
@@ -461,6 +485,9 @@ nav.bottom ol li:last-child {
 	.two-box {
 		width: 50%;
 		float: left;
+	}
+	.inner {
+		padding: 4em;
 	}
 }
 
@@ -522,7 +549,8 @@ nav.nav-collapse ol {
 
 
 .mj {
-	color: #333;
+	color: #fff;
+	transition: background-color .2s;
 }
 
 .mj:hover {

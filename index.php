@@ -38,14 +38,19 @@
 		</header>
 
 		<section class="billboard">
-			<div class="inner">
+		
+		</section>
+		<section class="rust">
+			<div class="inner intro">
 				<p>Flash Flood Print Studios creates limited-edition event posters, t-shirts and more — all designed and printed by hand in Tulsa, Oklahoma. Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality garnished with the intimate charm of hands-on craftsmanship.</p>
 				
 				<p>Flash Flood has the space, equipment, and expertise necessary for optimal creative production in sync with industry-leading standards. We are proud to offer Tulsa the very best of commercial screen printing and graphic design services in Oklahoma. Contact us for a custom quote.</p>
 			</div>
 		</section>
 		<section class="clearfix">
-			<div id="ig-container">
+			<div class="inner clearfix">
+				<div id="ig-container">
+				</div>
 			</div>
 		</section>
 
