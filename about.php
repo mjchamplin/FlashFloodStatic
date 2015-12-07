@@ -53,18 +53,6 @@
 	
     <section class="overview clearfix rust">
         <div class="inner inner-text">
-        	<!--
-			<p>
-<strong>The mission of Flash Flood Print Studios is two-fold</strong> – one, to provide exceptional commercial screen printing services for both textiles and flat stock and two, to serve as a community space and resource for those wanting to learn or those who wish to continue working with screen printing. We look forward to providing Tulsa with these resources and hope to be a part of a growing community of printers.</p>
-<p>
-The very beginnings of Flash Flood came about when I was still in undergrad. Recently obsessed with screen printing, I wondered why I didn't have any opportunities to try the medium when I was younger. The idea became further solidified when I graduated and moved back to Tulsa. I missed the facilities I had access to as a student and slowly began to build my own screen printing equipment so I could continue working in the medium.
-</p>
-<p>
-It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while working in a commercial t-shirt shop – and Flash Flood became a reality. We had both toyed with the idea of starting our own screen printing businesses separately, but thought our efforts would be doubly successful if we became partners. We registered the business in the balmy summer of 2012 and nearly a year later moved into our current studio in the Pearl District.
-
-&mdash; <em>May Yang, co-owner</em>
-        </p>
-		-->
 		<p>In the balmy summer of 2012, two ambitious and inspired creatives joined forces to realize their shared dream: a full service screen printing studio to lead the industry in Tulsa, Oklahoma. Their drive and general awesomeness led to the opening of a community-oriented studio in the heart of Tulsa’s blooming Pearl District.</p>
 		<p>Flash Flood Print Studios emerged from a passion to honor the endless creative possibilities and artistic integrity within the realm of graphic design and commercial screen printing services. </p>
 		<p><strong>Mission:</strong> At Flash Flood, we aim to provide exceptional screen printing and design services for both textiles and flat stock. We are here to  tastefully satisfy your demands and skillfully exceed your expectations.</p>
@@ -86,8 +74,26 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
             <p>Nick enjoys drawing cute things, tending bar and telling terrible jokes.</p>
         </div>		
 		<div class="clearfix"></div>
-		<img src="assets/images/warning-logo-dark.png" class="warning" />
     </section>
+	<section class="overview clearfix darkgray">
+		<div class="inner">
+			<h2><b>What We Do</b></h2>
+			<h3>Commericial Screen Printing for Both Textiles and Flatstock</h3>
+			<p>
+			Whether it is on textiles or paper, for your business or for your band, we work with you on creative solutions that push the boundaries of the medium. With high quality printing and attention to detail, we aim to create work that is coveted and cherished.
+			</p>
+
+			<h3>Graphic Design, Illustration, Lettering</h3>
+			<p>            
+			We're visual people at Flash Flood. Turning ideas into images comes naturally for us. If you need help with your concept, we'd love to work with you, one-on-one.
+			</p>
+			<h3>Studio Services</h3>
+			<p>
+			For those of you who already know how to screen print but haven't had the resources to do so… we understand your pain. From burning screens to printing out film work to providing a temporary space to work, we can take care of those ugly steps to get you on the path to printing.
+			</p>            
+		</div>
+		<img src="assets/images/warning-logo.png" class="warning" />
+	</section>
 	<?php include($root. "/assets/php/content-footer.php"); ?>
 </div>
 <?php include($root."/assets/php/footer.php"); ?>
