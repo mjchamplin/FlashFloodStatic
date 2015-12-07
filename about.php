@@ -53,7 +53,8 @@
 	
     <section class="overview clearfix rust">
         <div class="inner inner-text">
-        <p>
+        	<!--
+			<p>
 <strong>The mission of Flash Flood Print Studios is two-fold</strong> – one, to provide exceptional commercial screen printing services for both textiles and flat stock and two, to serve as a community space and resource for those wanting to learn or those who wish to continue working with screen printing. We look forward to providing Tulsa with these resources and hope to be a part of a growing community of printers.</p>
 <p>
 The very beginnings of Flash Flood came about when I was still in undergrad. Recently obsessed with screen printing, I wondered why I didn't have any opportunities to try the medium when I was younger. The idea became further solidified when I graduated and moved back to Tulsa. I missed the facilities I had access to as a student and slowly began to build my own screen printing equipment so I could continue working in the medium.
@@ -63,6 +64,14 @@ It wasn't until 2012 that I teamed up with Nick Nold – whom I had met while w
 
 &mdash; <em>May Yang, co-owner</em>
         </p>
+		-->
+		<p>In the balmy summer of 2012, two ambitious and inspired creatives joined forces to realize their shared dream: a full service screen printing studio to lead the industry in Tulsa, Oklahoma. Their drive and general awesomeness led to the opening of a community-oriented studio in the heart of Tulsa’s blooming Pearl District.</p>
+		<p>Flash Flood Print Studios emerged from a passion to honor the endless creative possibilities and artistic integrity within the realm of graphic design and commercial screen printing services. </p>
+		<p><strong>Mission:</strong> At Flash Flood, we aim to provide exceptional screen printing and design services for both textiles and flat stock. We are here to  tastefully satisfy your demands and skillfully exceed your expectations.</p>
+		<p><strong>Philosophy:</strong> As proud members of the Tulsa creative community, we strive to foster an environment which encourages ceaseless expansion of knowledge and expertise. The hands-on printing craft is our life. The quest and passion for perfection is our commitment.</p>
+		<p><strong>Practice:</strong> First, we ensure that our expertise and equipment meet leading industry standards of quality for your optimal satisfaction.  Second, we work closely with you to ensure your creative vision is accurately realized. The result? We stay ahead of the game and at the top of your favorites list.</p>
+		<p>As leaders in Tulsa, Oklahoma’s growing local printmaking community, Flash Flood Print Studios provides a fun and inspiring environment  warmly welcoming our clients into the creative process. We take pride in our ability to offer full service printing and design services enhanced by hands-on devotion to quality  and sincere passion for the gleeful fruits of creativity.</p>
+		<p>Every job  is executed with unbreakable dedication and commitment to artisanal handmade craftsmanship. We are grateful for the luxury to practice what we love and be proud of what we do. But we don’t have to tell you that - you’ll see it in the quality of our work.</p> 
         </div>
     </section>
     <section class="overview inner clearfix monochrome">
