@@ -39,7 +39,7 @@ h3 {
 	font-size: 1.7em;
 	font-weight: normal;
 	font-style: italic;
-	color: #d2d2d2;
+	/*color: #d2d2d2;*/
 }
 
 #wrapper {
@@ -138,8 +138,10 @@ section.billboard p:last-child {
 }
 
 .overview {
+	/*
 	background: #26739B;
 	color: #fff;
+	*/
 }
 
 .overview p {
@@ -317,21 +319,30 @@ nav.bottom ol li:last-child {
 }
 
 .rust {
+	/*
 	background: #8a462f;
 	color: #fff;
+	*/
+	background: #efefef
 }
 
 .mustard {
 	background: #ab9c38;
 }
-.turquoise { 
+.turquoise {
+	/*
 	background: #2e4f60;
 	color: #fff
+	*/
+	background: #efefef
 }
 
 .darkgray {
+	/*
 	background: #333;
 	color: #fff
+	*/
+	background: #efefef
 }
 
 .monochrome {

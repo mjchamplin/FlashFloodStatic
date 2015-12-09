@@ -92,7 +92,7 @@
 			For those of you who already know how to screen print but haven't had the resources to do so… we understand your pain. From burning screens to printing out film work to providing a temporary space to work, we can take care of those ugly steps to get you on the path to printing.
 			</p>            
 		</div>
-		<img src="assets/images/warning-logo.png" class="warning" />
+		<img src="assets/images/warning-logo-dark.png" class="warning" />
 	</section>
 	<?php include($root. "/assets/php/content-footer.php"); ?>
 </div>
